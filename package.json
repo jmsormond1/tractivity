@@ -1,0 +1,30 @@
+{
+  "name": "tractivity",
+  "version": "1.0.0",
+  "description": "Track your activities",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Ormond",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "consolidate": "*",
+    "cookie-parser": "^1.4.1",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "dustjs-linkedin": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "5.3.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "pg": "*"
+  }
+}

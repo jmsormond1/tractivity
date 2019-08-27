@@ -1,0 +1,10 @@
+<li class="list-group-item">
+    <p>
+        {{description}}
+        {{#if tag_array}}
+            {{#each tag_array}}
+                <a href="/tags/{{id}}"><span class="badge badge-secondary">{{name}}</span></a>
+            {{/each}}
+        {{/if}}
+    </p>
+</li>
